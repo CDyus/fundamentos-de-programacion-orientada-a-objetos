@@ -1,0 +1,98 @@
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    /*Pregunta 1.1: Escribe un programa en C++ que declare tres variables: una de tipo entero, una de
+tipo flotante y una de tipo carácter. Inicializa las variables con valores adecuados e imprime sus
+valores en consola.
+*/
+int entero = 9;
+float flotante = 2.7;
+cout<<"variable de tipo entero es: "<<entero<<"\n";
+cout<<"variable de tipo flotante es: "<<flotante<<"\n";
+
+    
+cout<<"Pregunta 1.2: Explica la diferencia entre los tipos de datos int, float y char en C++. ¿Cuándo esrecomendable usar cada uno?\n";
+cout<<"respuesta: el dato de tipo int se usa para variables de tipo enteromientras el tipo float se utiliza para variables de tipo decimaly la variable char es para variables de tipo no numerico\n";
+
+
+
+
+cout<<"Pregunta 2.1: Escribe un programa en C++ que reciba dos números enteros por teclado y muestrela suma, resta, multiplicación, división y módulo de estos dos números.\n";
+
+    
+int a;
+int b;
+cout<<"ingrese su primer numero entero:";cin>>a;
+cout<<"ingrese su segundo numero entero: ";cin>>b;
+int suma = a+b;
+int resta = a-b;
+int multiplicación = a*b;
+float división = a/b;
+cout<<"el resultado de la suma de sus dos numeros es: "<<suma<<"\n";
+cout<<"el resultado de la resta de sus dos numeros es: "<<resta<<"\n";
+cout<<"el resultado de la multiplicación de sus dos numeros es: "<<multiplicación<<"\n";
+cout<<"el resultado de la división de sus dos numeros es: "<<división<<"\n";
+
+    
+
+cout<<"Pregunta 2.2: ¿Cuál es la diferencia entre los operadores de comparación == y != en C++? Da unejemplo de su uso.\n";
+
+cout<<"el operador == se usa para decir que un dato es exactamente igual a otro por el contrario el operador != es para decir que un dato es diferente de otro\n";
+
+if(a==4){
+    cout<<"este mensaje solo se imprime si a es exactamente igual a 4\n";
+}
+if(b!=4){
+    cout<<"este mensaje solo se imprime si b es diferente de 4\n";
+}
+    
+cout<<"Pregunta 2.3: ¿Cómo se pueden usar los operadores lógicos && (AND), || (OR) y ! (NOT) en C++?se pueden usar para hacer que un condicional tenga mas de una condicion\n";
+if(a!=4&&a<28){
+    cout<<"este mensaje solo se imprime si a es un numero diferente de 4 y a su vez es menor que 28\n";
+}
+if(a==5 || a>10){
+    cout<<"este mensaje solo se imprime si a es igual a 5 o es mayor a diez\n";
+}
+
+
+cout<<"Pregunta 3.1: Escribe un programa en C++ que pida la edad de una persona y muestre un mensajeindicando si es mayor de edad (18 años o más) o menor de edad (menos de 18 años). Usa unaestructura if-else\n";
+
+int edad;
+cout<<"ingrese su edad: ";cin>>edad;
+if(edad>=18){
+    cout<<"usted es mayor de edad\n";
+}else if(edad<18){
+    cout<<"usted es enor de edad\n";
+}
+
+
+cout<<"Pregunta 3.2: Explica cómo funciona una estructura else if en C++. Da un ejemplo donde seanecesario utilizarla\n";
+cout<<"las estructura if else se usan para poner condiciones a una parte del codigo verificando si estas se cumplen o no\n";
+
+cout<<"Pregunta 4.1: Escribe un programa en C++ que imprima los números del 1 al 10 usando un bucle for\n";
+int x;
+for(int x=1; x>10; x++){
+    cout<<x<<"\n";
+}
+cout<<x<<"\n";
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
