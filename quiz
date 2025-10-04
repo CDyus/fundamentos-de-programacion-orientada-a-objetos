@@ -10,9 +10,10 @@ valores en consola.
 */
 int entero = 9;
 float flotante = 2.7;
+char caracter = "M"
 cout<<"variable de tipo entero es: "<<entero<<"\n";
 cout<<"variable de tipo flotante es: "<<flotante<<"\n";
-
+cout<<"variable de tipo caracter es: "<<caracter<<"\n"
     
 cout<<"Pregunta 1.2: Explica la diferencia entre los tipos de datos int, float y char en C++. ¿Cuándo esrecomendable usar cada uno?\n";
 cout<<"respuesta: el dato de tipo int se usa para variables de tipo enteromientras el tipo float se utiliza para variables de tipo decimaly la variable char es para variables de tipo no numerico\n";
